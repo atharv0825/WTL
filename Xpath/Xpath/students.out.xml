@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>Student List</h2>
+        <table border="1">
+            <tr>
+                <th>Roll No</th><th>Name</th>
+            </tr>
+            <tr>
+                <td>01</td><td>Sarvesh Halde</td>
+            </tr>
+            <tr>
+                <td>02</td><td>Sajid Sayyad</td>
+            </tr>
+            <tr>
+                <td>03</td><td>Kabir Patil</td>
+            </tr>
+        </table>
+    </body>
+</html>

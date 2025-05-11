@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xpath.xsl"?>
+<class>
+    <student>
+        <name>ATHARV BABAR</name>
+        <rollno>01</rollno>
+    </student>
+    <student>
+        <name>SAJID SAYYAD</name>
+        <rollno>02</rollno>
+    </student>
+    <student>
+        <name>RAHUL KUMBHAR</name>
+        <rollno>03</rollno>
+    </student>
+    <student>
+        <name>SHREEVARDHAN MANDLIK</name>
+        <rollno>04</rollno>
+    </student>
+    <student>
+        <name>SARVESH HALADE</name>
+        <rollno>05</rollno>
+    </student>
+    <student>
+        <name>VARAD THORWAT</name>
+        <rollno>06</rollno>
+    </student>
+</class>

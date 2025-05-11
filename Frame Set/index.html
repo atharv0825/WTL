@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Layout</title>
+    <style>
+        frame{
+            background-color:rgb(238, 253, 253)
+        }
+    </style>
+</head>
+
+<frameset rows="20%, *"> 
+    <frame src="heading.html" name="headerFrame" scrolling="no" noresize></frame>
+ 
+    <frameset cols="15%, 85%"> 
+        <frame src="navigation.html" name="navFrame"></frame>
+        <frame src="content.html" name="contentFrame"></frame>
+    </frameset>
+
+</frameset>
+</html>
