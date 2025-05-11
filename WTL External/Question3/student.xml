@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+
+<student>
+	<name>Atharv Babar</name>
+	<rollno>09</rollno>
+	<department>Computer Science and Engineering</department>
+	<year>2025</year>
+	<subjects>		
+		<subject>Web-Technology</subject>
+		<subject>Compiler Design</subject>
+		<subject>Application of AIML</subject>
+	</subjects>
+</student>

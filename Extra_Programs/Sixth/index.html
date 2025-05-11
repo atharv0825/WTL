@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Hover Color Change</title>
+    <style>
+        #hoverBox {
+            width: 300px;
+            height: 150px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 150px;
+            font-size: 20px;
+            border: 2px solid #333;
+            margin: 50px auto;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="hoverBox">Hover over me!</div>
+
+    <script>
+        const box = document.getElementById('hoverBox');
+
+        box.addEventListener('mouseover', function () {
+            console.log("Mouse hover on box")
+            box.style.backgroundColor = 'skyblue';
+        });
+
+        box.addEventListener('mouseout', function () {
+            console.log("Mouse hover out of box")
+            box.style.backgroundColor = 'lightgray';
+        });
+    </script>
+
+</body>
+
+</html>

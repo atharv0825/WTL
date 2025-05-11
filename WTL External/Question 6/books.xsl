@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" 
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+	<html>
+		<head>
+			<title>Book Price > 400</title>
+		</head>
+		<body>
+			<h2>Book price greater than 200</h2>
+		<table border="1">
+				<tr>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Price</th>
+				</tr>
+
+				<xsl:for-each select="library/book">
+					<xsl:if test="price &gt; 200">
+						<tr>
+							<td><xsl:value-of select="title"/></td>
+							<td><xsl:value-of select="author"/></td>
+							<td><xsl:value-of select="price"/></td>
+						</tr>
+					</xsl:if>
+				</xsl:for-each>
+		</table>
+	</body>
+	</html>
+</xsl:template>
+	
+</xsl:stylesheet>

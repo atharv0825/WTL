@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Introduction to XML</title>
+        <author>John Doe</author>
+        <year>2022</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Learning XSLT</title>
+        <author>Jane Smith</author>
+        <year>2021</year>
+        <price>19.99</price>
+    </book>
+    <book>
+        <title>Advanced XPath</title>
+        <author>James Lee</author>
+        <year>2020</year>
+        <price>39.99</price>
+    </book>
+</library>

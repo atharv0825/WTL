@@ -1,0 +1,107 @@
+<html>
+    	<head>
+		<title>Registration Form</title>
+
+		<style>
+			body{
+				margin : 0;
+				padding : 0;
+       				font-family:"poppins";
+			}
+			
+			form{
+				display : flex;
+				flex-direction : column;
+				width: 30vw;
+				text-align: left;
+			}
+			
+			.container{
+				width : 90vw;
+				height : 100vh;
+				background-color : white;
+				margin : auto;
+				margin-top : 20px;
+				display : flex;
+				flex-direction : column;
+				align-items : center;
+				justify-content : center;	
+               		color : black;	
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		               border-radius:20px;
+			}
+
+			form input{
+				width : 100%;
+				padding : 0.5rem;
+				border : 2px solid #ccc;
+				border-radius : 5px;
+				margin-bottom : 1rem;
+			}
+
+			form label{
+				margin-bottom : 0.5rem;
+				font-size: 1.1rem;
+				font-weight : bold;
+			}
+
+			.container p{
+				font-size: 2.5rem;
+               		font-weight : bold;
+			}
+
+			.submit-btn{
+				text-align: center;
+				margin-top: 1rem;
+			}
+
+			.cstm-btn{
+				background-color : #28a745;
+				color: white;
+				padding: 10px 20px;
+				font-size : 20px;
+				font-weight : bold;
+				cursor:pointer;
+				border : none;
+				border-radius : 10px;
+				transition : background-color 0.3s ease; 
+			}	
+			
+			.cstm-btn:hover{
+				background-color : #218838;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<div class="container">	
+			<p>Registration Form</p>
+			<form action="submit.html" method="post"> 
+				<label for="name">Name: </label>
+				<input id="name" type="text" name="name" required> 
+
+				<label for="age">Age: </label>
+				<input id="age" type="text" name="age" required> 
+
+				<label for="phone">Phone: </label>
+				<input id="phone" type="text" name="phone" required> 
+
+               		<label for="email">Email: </label>
+				<input id="email" type="text" name="email" required> 
+				
+				<label for="addr">Address: </label>
+				<input id="addr" type="text" name="addr" required> 
+
+				<label for="adhr">Aadhar Card Number : </label>
+				<input id="adhr" type="text" name="adhr" required> 
+				
+				<label for="pan">PAN Card Number : </label>
+				<input id="pan" type="text" name="pan" required> 
+
+				<div class="submit-btn">
+					<button class="cstm-btn" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

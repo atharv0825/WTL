@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<library>
+	<book>
+		<title>Learning XML</title>
+        	<author>John Smith</author>
+        	<price>350</price>
+	</book>
+	<book>
+		<title>Learning XML</title>
+        	<author>John Smith</author>
+        	<price>550</price>
+	</book>
+	<book>
+		<title>Learning XML</title>
+        	<author>John Smith</author>
+        	<price>450</price>
+	</book>	
+	
+</library>
+
